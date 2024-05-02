@@ -6,11 +6,11 @@ const mongoose = require("mongoose");
 const RouterApi = require("./router/routeApi");
 const RouterUser = require("./router/routeUser");
 const app = express();
-const port = 5001;
+const port = 4000;
 const url = process.env.MONGOOSE_URL;
 mongoose.connect(url).then(res => {
   console.log("Good Databases");
-  app.listen(process.env.PORT ?? 5001, (req, res) => {
+  app.listen(process.env.PORT ?? 4000, (req, res) => {
     console.log("the server is ON.");
   });
 }).catch((err) => {
