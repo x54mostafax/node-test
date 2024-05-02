@@ -14,8 +14,9 @@ mongoose.connect(url).then(res => {
     console.log("the server is ON.");
   });
 }).catch((err) => {
-  console.log("Bad data.");
+  console.log("Bad data...");
 });
+
 app.use(cors())
 app.use(express.json());
 app.use('/uploads', express.static(path.join(__dirname, "uploads")))
