@@ -1,0 +1,110 @@
+    * {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    }
+    
+    body {
+        font-size: 15pt;
+        background: rgb(40,90,90,2)
+    }
+    .formdiv { 
+    align-content: center;
+    margin-top: 20%;
+    margin-bottom: 70%;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 350px;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: darkturquoise;
+    width: 60%;
+    height:450px;
+    border-radius: 5px;
+    background: whitesmoke;
+    }
+    label{
+    font-size: 13px;
+    }
+    input{
+    width: 100%;
+    text-align: left;
+    background: whitesmoke;
+    border: whitesmoke;
+    border-radius: 3px;
+    margin-bottom: 50px;
+    height: 40px;
+    border-bottom: 1.6px solid gray;
+    }
+    .profile{
+    width: 120px;
+    height: 120px;
+    margin-top:-50px;
+    border-radius:50%;
+    }
+    #btn{
+    font-size: 1.2em;
+    width: 80%;
+    border: gray;
+    color:whitesmoke;
+    background: royalblue;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    }
+    #btn:active{
+        scale: 0.99;
+    }
+    nav{
+    margin-top: 20px; 
+    }
+    a{
+    font-size: .5em;
+    text-decoration:none;
+    }
+    img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    
+    }
+    #message {
+    position: fixed;
+    left: 40px;
+    right: 40px;
+    top: 200px;
+    bottom: 100px;
+    border: 4px solid black;
+    height: 150px;
+    border-radius:10px;
+    background: whitesmoke;
+    transition: all 0.1s;
+    display: block;
+    }
+    #message p{
+    margin-top: 60px;
+    font-size: 13px;
+    }
+    #btnms{
+    background: transparent;
+    border: 0px ;
+    color: royalblue;
+    position: absolute;
+    bottom: 0px;
+    left: 120px;
+    font-size: 20px;
+    }
+    .body1{
+    background-color: rgba(20,20 ,20 ,80 )
+    }
+    #biger{
+    background-color: rgba(2,18 ,18,0.5 );
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    display: none;
+    }

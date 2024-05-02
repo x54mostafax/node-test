@@ -1,0 +1,30 @@
+{
+  "name": "part-2",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json",
+    "ol": " nodemon section5.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "bcrypt": "^5.1.1",
+    "commander": "^11.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express-validator": "^7.0.1",
+    "inquirer": "^9.2.13",
+    "json-server": "^0.17.4",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.3",
+    "validator": "^13.11.0"
+  },
+  "keywords": [],
+  "description": ""
+}
